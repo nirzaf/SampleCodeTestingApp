@@ -1,0 +1,15 @@
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\SampleCodeTestingApp.exe
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\SampleCodeTestingApp.deps.json
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\SampleCodeTestingApp.runtimeconfig.json
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\SampleCodeTestingApp.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\SampleCodeTestingApp.pdb
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.csproj.AssemblyReference.cache
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.AssemblyInfoInputs.cache
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.AssemblyInfo.cs
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.csproj.CoreCompileInputs.cache
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\refint\SampleCodeTestingApp.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.pdb
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.genruntimeconfig.cache
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\ref\SampleCodeTestingApp.dll
