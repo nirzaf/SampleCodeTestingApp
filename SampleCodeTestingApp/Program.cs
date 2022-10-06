@@ -1,13 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-using static System.Console;
-using static System.StringComparison;
+using System.Globalization;
 
-string? input  = ReadLine();
+using SampleCodeTestingApp;
 
+string? input  = "2020-08-06";
+
+DateTime dateTime = Converters.ConvertStringToDate(input);
+
+Console.WriteLine(dateTime.ToString(CultureInfo.InvariantCulture));
 
 //compare the input to the string "Hello" and ignore case
-WriteLine(input!.Contains("Hello", OrdinalIgnoreCase) ? "Hello World!" : "Goodbye World!");
-
-ReadLine();
+// WriteLine(input!.Contains("Hello", OrdinalIgnoreCase) ? "Hello World!" : "Goodbye World!");
+//
+// ReadLine();
