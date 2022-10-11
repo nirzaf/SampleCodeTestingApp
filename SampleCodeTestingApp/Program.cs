@@ -25,7 +25,6 @@ DateTime dateTime = Converters.ConvertStringToDate(input);
 Console.WriteLine(dateTime.ToString(CultureInfo.InvariantCulture));
 */
 
-//compare the input to the string "Hello" and ignore case
-// WriteLine(input!.Contains("Hello", OrdinalIgnoreCase) ? "Hello World!" : "Goodbye World!");
-//
-// ReadLine();
+/*compare the input to the string "Hello" and ignore case
+ WriteLine(input!.Contains("Hello", OrdinalIgnoreCase) ? "Hello World!" : "Goodbye World!");
+ ReadLine();*/
