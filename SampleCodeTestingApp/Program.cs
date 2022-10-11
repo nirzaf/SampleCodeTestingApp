@@ -5,11 +5,25 @@ using System.Globalization;
 
 using SampleCodeTestingApp;
 
-string? input  = "2020-08-06";
+string? input  = Console.ReadLine();
 
+if (!input.Any())
+{
+    Console.WriteLine("No input");
+}
+else
+{
+    var result = input.ToUpper();
+    Console.WriteLine(result);
+}
+
+Console.WriteLine("Press any key to exit");
+
+/*
 DateTime dateTime = Converters.ConvertStringToDate(input);
 
 Console.WriteLine(dateTime.ToString(CultureInfo.InvariantCulture));
+*/
 
 //compare the input to the string "Hello" and ignore case
 // WriteLine(input!.Contains("Hello", OrdinalIgnoreCase) ? "Hello World!" : "Goodbye World!");
