@@ -7,8 +7,31 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SampleCodeTestingApp/1.0.0": {
+        "dependencies": {
+          "Bogus": "34.0.2",
+          "Bogus.Healthcare": "34.0.2"
+        },
         "runtime": {
           "SampleCodeTestingApp.dll": {}
+        }
+      },
+      "Bogus/34.0.2": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "34.0.2.0",
+            "fileVersion": "34.0.2.0"
+          }
+        }
+      },
+      "Bogus.Healthcare/34.0.2": {
+        "dependencies": {
+          "Bogus": "34.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.Healthcare.dll": {
+            "assemblyVersion": "34.0.2.0",
+            "fileVersion": "34.0.2.0"
+          }
         }
       }
     }
@@ -18,6 +41,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/34.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "path": "bogus/34.0.2",
+      "hashPath": "bogus.34.0.2.nupkg.sha512"
+    },
+    "Bogus.Healthcare/34.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Gu0fAP5kEOr6Vmn/MjJri1nAUW/zzj9mNNddsjPckpOrWsF093wOyT6PBdsftd5Uwl2MCL/Sw6Oez5kA84FWw==",
+      "path": "bogus.healthcare/34.0.2",
+      "hashPath": "bogus.healthcare.34.0.2.nupkg.sha512"
     }
   }
 }

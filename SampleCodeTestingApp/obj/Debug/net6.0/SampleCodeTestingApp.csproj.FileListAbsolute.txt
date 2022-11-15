@@ -13,3 +13,6 @@ C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\De
 C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.pdb
 C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.genruntimeconfig.cache
 C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\ref\SampleCodeTestingApp.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\Bogus.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\bin\Debug\net6.0\Bogus.Healthcare.dll
+C:\Users\mmfazrin\RiderProjects\SampleCodeTestingApp\SampleCodeTestingApp\obj\Debug\net6.0\SampleCodeTestingApp.csproj.CopyComplete

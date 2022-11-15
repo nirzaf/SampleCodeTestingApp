@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Xh0ltHhFWB8u2PjIcHzloSqQEC+jfOVdIOmJ9bhLfAcmSpBWdMjvW95VTYivcsMwTqR61t8GvsAFIq0vh+0Jdw==",
+  "dgSpecHash": "p0GYD1z22vfOedpVKeEibEYVkvUtaLIFumyNhxXSRH9dddl1cghvXFW9KE9IdnkVXBiAjoUM6UyKnF6aZecu3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\mmfazrin\\RiderProjects\\SampleCodeTestingApp\\SampleCodeTestingApp\\SampleCodeTestingApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mmfazrin\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
+    "C:\\Users\\mmfazrin\\.nuget\\packages\\bogus.healthcare\\34.0.2\\bogus.healthcare.34.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

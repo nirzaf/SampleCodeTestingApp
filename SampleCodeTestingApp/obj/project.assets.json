@@ -1,11 +1,83 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Bogus.Healthcare/34.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Bogus": "34.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Bogus.Healthcare.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.Healthcare.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "Bogus.Healthcare/34.0.2": {
+      "sha512": "6Gu0fAP5kEOr6Vmn/MjJri1nAUW/zzj9mNNddsjPckpOrWsF093wOyT6PBdsftd5Uwl2MCL/Sw6Oez5kA84FWw==",
+      "type": "package",
+      "path": "bogus.healthcare/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.healthcare.34.0.2.nupkg.sha512",
+        "bogus.healthcare.nuspec",
+        "lib/net40/Bogus.Healthcare.dll",
+        "lib/net40/Bogus.Healthcare.xml",
+        "lib/net6.0/Bogus.Healthcare.dll",
+        "lib/net6.0/Bogus.Healthcare.xml",
+        "lib/netstandard1.3/Bogus.Healthcare.dll",
+        "lib/netstandard1.3/Bogus.Healthcare.xml",
+        "lib/netstandard2.0/Bogus.Healthcare.dll",
+        "lib/netstandard2.0/Bogus.Healthcare.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Bogus >= 34.0.2",
+      "Bogus.Healthcare >= 34.0.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mmfazrin\\.nuget\\packages\\": {},
@@ -50,13 +122,24 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          },
+          "Bogus.Healthcare": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -65,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,15 +5,38 @@ using System.Globalization;
 
 using SampleCodeTestingApp;
 
+var listOfPatient = new List<Patient>();
+
+listOfPatient = GeneratePatientDetails.GeneratePatient();
+
+foreach (var patient in listOfPatient)
+{
+    Console.WriteLine("Patient Id:" + patient.PatientId);
+    Console.WriteLine("Patient Name:" + patient.FirstName + " " + patient.LastName);
+    Console.WriteLine("Patient Age:" + patient.Age);
+    Console.WriteLine("Patient Password: " + patient.Password);
+}
+
+// for (int i = 0; i < 100; i++)
+// {
+//     listOfPasswords.Add(RandomPassword.Generate(11));
+// }
+//
+// foreach (var password in listOfPasswords)
+// {
+//     Console.WriteLine(password);
+// }
+
+
 string? input  = Console.ReadLine();
 
-if (!input.Any())
+if (!input!.Any())
 {
     Console.WriteLine("No input");
 }
 else
 {
-    var result = input.ToUpper();
+    var result = input!.ToUpper();
     Console.WriteLine(result);
 }
 
